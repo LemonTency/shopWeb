@@ -1,0 +1,320 @@
+@charset"utf-8";
+/*CSS Document*/
+
+
+*{
+	margin:0px;
+	padding:0px;
+	font-size:15px;
+}
+
+ #picBox{
+   text-align:center;
+ } 
+
+body{
+	background-color: #D3D3D3;
+}
+.bgColor1{
+	background-color: #D3D3D3;
+}
+
+.head{
+	margin-top:10px;
+	width:100%;
+	height:45px;
+	background-color: #808080
+}
+.head li{
+	list-style-type:none;
+	float:left;
+	width:33%;
+	line-height:55px;
+	text-align:center;
+}
+.head a:link,.head a:visited{
+ 	color:#FFF;
+ 	font-size:16px;
+ 	margin:0 auto;
+ 	text-decoration:none;/* <!--这句话不能放在上面，因为文字下面有横线是因为超链接的默认，所以只能在a的里面更改--> */
+ }
+
+.head a:hover,.head a:active{
+ 	color:#800000;
+ 	font-size:16px;
+ 	text-decoration:none;
+ }
+
+.search{
+	text-align:center;
+	margin:10px;
+	height:35px;
+}
+
+.searchBox{
+	height:35px;
+	width:600px;
+}
+
+.submit{
+	width:80px;
+	height:38px;
+	background:#800000;
+	border:none;
+	color:white;
+}/*导航栏*/
+
+ .ad{
+ 	height:305px;
+ 	width:100%;
+ 	margin:0 auto;
+  overflow:hidden;
+}/*动态广告宽度设置*/
+
+.pic{
+	width:1434px;
+	height:23px;
+}
+
+/*.adbox{
+	width:1434px;
+	height:23px;
+}*/
+
+.gap{
+	height:400px;
+	width:1.6%;
+	float:left;
+	background-color:#D3D3D3;
+}
+/*商品与商品之间的灰色间隙*/
+
+.goodsOne{
+	height:390px;
+	width:25%;
+	float:left;
+	/*background-color:white;*/
+}
+
+.word{
+	background-color:white;
+	width:280px;
+	height:60px;
+	margin-left:40px;
+}
+.goods img {
+ 	vertical-align:middle; /* <!--这张图片在垂直方向是居中的，从而使图片处于整一个框的中间--> */
+ 	margin-right:40px;
+ 	margin-left:40px;
+}
+
+.name,.discount,.price,.heat{
+	text-align:center;
+	font-family:"宋体"；
+}
+.name{
+	font-size:16px;
+}
+
+.discount{
+	float:left;
+	margin-left:20%;
+	margin-top:2px;
+	color:#800000;
+	font-size:1.5rem;
+	font-family:"宋体";
+}
+
+.price{
+	font-weight:bold;
+	font-size:1.5rem;
+	color:#800000;
+	float:left;
+	margin-left:15%;
+	font-family:"宋体";
+}
+
+.heat{
+	color:#800000;
+	font-size:1.5rem;
+	font-family:"宋体";
+	clear:both;
+}
+
+.detail{
+	background-color:#000000;
+}
+
+.detailPicture{
+	margin-top:40px;
+	margin-left:50px;
+	height:250px;
+	width:200px;
+/*	background-color:red;*/
+	float:left;
+}
+
+.detailPicture img{
+	width:250px;
+	height:250px;
+	margin-top:20px;
+}
+/*商品详情里面的图片设置*/
+
+.detailIntrodue{
+	margin-top:0px;
+	margin-left:0px;
+	width:400px;
+/*	background-color:black;*/
+	float:left;
+}
+
+.detailIntrodue p{
+	font-size:14px;
+	color:#778899;
+	float:left;
+	margin-right:30px;
+}
+
+.detailName,.detailDate,.detailPrice,.detailDiscount,.detailHeat,.detailPosition,.detailGood{
+	padding-top:8px;
+	margin-bottom:10px;
+	margin-top:20px;
+	/*background:url(images/line.png)no-repeat right center;想要添加横线背景*/
+}
+
+.detailBuss{
+	clear:both;
+}
+.detailHeat{
+	margin-right:200px;
+}
+
+
+.detailName{
+	padding-top:0px;
+	font-size:20px;
+	font-family:"宋体";
+}
+
+.detailPrice,.detailDiscount,.detailHeat,.detailDate,.detailBuss,.detailPosition,.detailGood p{
+	font-size:14px;
+	color:#778899;
+	margin-right:40px;
+	padding:8px 0;
+}
+.detailDate p{
+	margin-left:50px;
+}
+.detailDiscount{
+	float:left;
+}/*为了日期能浮动到同一行*/
+.detailPrice{
+	font-size:20px;
+	color:#800000;
+	margin:0 auto;
+	margin-left:30px;
+}
+
+.detailDiscount,.detailHeat,.detailDate,.detailBuss,.detailPosition,.detailGood{
+	font-size:14px;
+	color:#6f6f6f;
+	margin:0 auto;
+	margin-left:30px;
+	font-family:"宋体";
+}
+/*.detailGood{
+	clear:both;
+	font-size:14px;
+	color:#6f6f6f;
+	margin:0 auto;
+	font-family:"宋体";
+	padding-top:8px;
+	margin-bottom:10px;
+	margin-top:20px;
+}*/
+.navigation{
+	margin-top:30px;
+}
+
+.box1{
+	border:1px #808080;
+	background:#f2f2f2;
+	width:350px;
+	height:150px;
+	float:left;
+	margin-right:20px;
+}
+
+.sideBar{
+	border:1px #808080;
+	background:#f2f2f2;
+	width:180px;
+	height:500px;
+	float:left;
+	margin-right:0px;
+	padding-right:0px;
+}
+.sideBarTitle p{
+	/*background-color:#D3D3D3;*/
+	font-size:16px;
+	color:#6f6f6f;
+	font-family: "宋体";
+	margin:20px 20px 35px 35px;
+}
+
+.sideBarImg{
+	margin:20px;
+}
+.sideBarImg p{
+	font-size:14px;
+	color:#2f4f4f;
+	font-family: "宋体";
+	margin:2px auto;
+}
+
+.caption p{
+	font-size:20px;
+	color:#800000;
+	margin:0 auto;
+	margin-left:30px;
+	float:left;
+}
+
+.caption p:after{
+	clear:both;
+	height:0px;
+	content:"";
+	
+}
+.caption h3{
+	text-align: center;
+
+}
+.indexFonthighlight{
+	color: #800000;
+	font-size: 16px;	
+}
+.fonthighlight
+{
+	color: #800000;
+	font-size: 16px;
+
+}
+
+.center{
+	display: flex ;
+	vertical-align: center;
+}
+
+.btn-self{
+
+	background-color:#800000	!important;
+}
+
+
+
+.right{
+	text-align:center;
+}
+/*让人流密度都居中而不是靠左*/
