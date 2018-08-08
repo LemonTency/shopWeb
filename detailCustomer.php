@@ -24,8 +24,8 @@
     <form class="navbar-form navbar-left">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
+          <a href="searchStaff.php"class="btn btn-primary btn-self" href="#" role="button">搜索</a>
         </div>
-        <button type="submit" class="btn btn-default">搜索</button>
       </form>
   </div><!-- /.container-fluid -->
 </nav>

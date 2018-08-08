@@ -24,8 +24,9 @@
     <form class="navbar-form navbar-left">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
+          <a href="searchStaff.php"class="btn btn-primary btn-self" href="#" role="button">搜索</a>
         </div>
-        <a href="search.php"class="btn btn-primary btn-self" href="#" role="button">搜索</a></p>
+       
       </form>
   </div><!-- /.container-fluid -->
 </nav>
@@ -35,9 +36,12 @@
       <a href="detailCustomer.php">
       <img src="images/good1.jpg" class="img-responsive" alt="Responsive image"></a>
       <!-- <div class="caption"> -->
-        <h6 class="center">三只松鼠创意大礼包</h5>
-        <div class="price">¥12</div><div class="discount">7.8折</div>
-		<div class="heat">关注度：1</div> 
+        <h5>三只松鼠创意大礼包</h5>
+        <div class='indexDesc'>
+          <div class="price">¥12</div>
+          <div class="discount">7.8折</div>
+        </div>
+          <div class="heat">关注度：1</div> 
     </div>
   </div>
 </div>
@@ -45,9 +49,12 @@
   <div class="col-xs-6 col-md-4">
     <div class="thumbnail">
       <img src="images/good5.jpg" alt="...">
-    <h6 class="center">3D哈士奇创意抱枕</h6>
-        <div class="price">¥78</div><div class="discount">9.0折</div>
-    <div class="heat">关注度：2</div>
+      <h5>三只松鼠创意大礼包</h5>
+        <div class='indexDesc'>
+          <div class="price">¥12</div>
+          <div class="discount">7.8折</div>
+        </div>
+          <div class="heat">关注度：1</div> 
     </div>
   </div>
 </div>

@@ -2,8 +2,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport"content="width=device-width,initial-scale=1.0">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport"content="width=device-width,initial-scale=1.0">
 <link href="css/main.css"rel="stylesheet"type"text/css"/>
 <link href="css/bootstrap.min.css"rel="stylesheet">
 <!--引入风格js文件-->
@@ -31,9 +29,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <form class="navbar-form navbar-left">
         <div class="form-group">
+          <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
+          <a href="searchStaff.php"class="btn btn-primary btn-self" href="#" role="button">搜索</a>
         </div>
-        <a href="searchStaff.php"class="btn btn-primary btn-self" href="#" role="button">搜索</a></p>
       </form>
   </div><!-- /.container-fluid -->
 </nav>

@@ -33,13 +33,11 @@
 </div> <!-- 灰色的头顶框结束 -->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->	
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <form class="navbar-form navbar-left">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <a href="searchStaff.php"class="btn btn-primary btn-self" href="#" role="button">搜索</a></p>
+        <a href="search.php"class="btn btn-primary btn-self" href="#" role="button">搜索</a></p>
       </form>
   </div><!-- /.container-fluid -->
 </nav>
